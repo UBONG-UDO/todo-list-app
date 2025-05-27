@@ -40,6 +40,7 @@
   margin-bottom: 25px;
 }
 input {
+  box-sizing: border-box;
   flex: 1;
   border: none;
   outline: none;
@@ -48,9 +49,10 @@ input {
   font-size: 18px;
 }
 button {
+  box-sizing: border-box;
   border: none;
   outline: none;
-  padding: 16px 50px;
+  padding: 16px 35px;
   background: #002765;
   color: #fff;
   font-size: 20px;
